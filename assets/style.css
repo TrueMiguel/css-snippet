@@ -1,0 +1,72 @@
+:root {
+    --bg: grey;
+}
+
+* {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+header {
+    display: flex;
+    padding: 40px;
+    background-color: var(--bg);
+    border: 10px solid darkred;
+    margin: 10px;
+    justify-content: center;
+}
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.sub-header {
+    display: flex;
+    padding: 20px;
+    justify-content: center ;
+    background-color: var(--bg);
+    border: 10px solid darkred;
+    margin: 10px;
+}
+
+.grouping {
+    display: flex;
+    margin: 1% 2%;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    border: 10px solid blue;
+    flex-direction: column;
+    padding: 15px;
+    background-color: var(--bg);
+   
+}
+
+.card header{
+    margin: 0 0 10px 0;
+    padding: 20px;
+    color:red;
+    border: 5px solid darkred;
+} 
+
+.card p {
+    color: orange;
+    line-height: 1.5;
+    background-color: var(--bg);
+}
+
+footer {
+    display: flex;
+    background-color: var();
+    border: 10px solid darkred;
+    padding: 20px;
+    justify-content: center;
+    background-color: var(--bg);
+    
+}
